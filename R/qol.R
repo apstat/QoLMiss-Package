@@ -19,8 +19,6 @@
 #' which is obtained as the output.
 #'
 #' qol(x)
-#' miss_qol(x)
-#' miss_patient(x)
 #'
 #' 1) Subject ID column should be named as 'ID'.
 #'
@@ -56,8 +54,6 @@
 #' ##
 #' data("sim_x")
 #' qol(sim_x)
-#' miss_qol(sim_x)
-#' miss_patient(sim_x)
 #' ##
 #'
 #' @export
