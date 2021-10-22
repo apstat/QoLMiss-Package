@@ -1,6 +1,4 @@
 #' qol
-#' miss_qol
-#' miss_patient
 #'
 #' Calculates the domain-based scale scores using the data from
 #' Quality of Life questionnaire
@@ -10,12 +8,6 @@
 #'
 #' @details qol function first inputs a dataset containing the data of 30 questions
 #' from QOL questionnaire. It extracts only the columns named 'Q1','Q2',...,'Q30'.
-#' miss_qol function inputs a dataset containing missing information, represented as,
-#' 9 or 99 or NA. It extracts only the columns named 'Q1','Q2',...,'Q30' and replaces
-#' the missing data with the minimum value of the particular question.
-#' miss_patient function inputs a dataset in which the information of some patients
-#' are completely missing. The information of these patients are omitted from the data
-#' and only the columns named 'Q1','Q2',...,'Q30' are extracted.
 #'
 #' Using each of the 30 columns, the Raw Score is computed, and one column is obtained containing
 #' the Raw Score for each patient.
