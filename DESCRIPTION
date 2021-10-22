@@ -1,0 +1,26 @@
+Title: Scales Score Calculation from Quality of Life data
+Package: QOL
+Type: Package
+Version: 0.1.0
+Date: 2021-07-30
+Description: The qol function takes input of the data set containing the answers of QOL questionnaire. It will compute the three types of domain based scale scores: Global, Functional, and Symptoms.
+    Finally, provide an output replacing the question columns with the domain-based scale scores in the original data set.
+LazyDataCompression: xz
+ByteCompile: Yes
+Authors@R: c(person(("Atanu"), "Bhattacharjee",
+                    email="atanustat@gmail.com",
+	            role=c("aut", "ctb")),
+               person(("Ankita"), "Pal", role=c("aut", "cre", "ctb")))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: dplyr
+Maintainer: Ankita Pal <apalstat97@gmail.com>
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-06-26 15:21:50 UTC; atanu
+Author: Atanu Bhattacharjee [aut, ctb],
+  Ankita Pal [aut, cre, ctb]
+Repository: CRAN
+Date/Publication: 2021-- 15:40:02 UTC
